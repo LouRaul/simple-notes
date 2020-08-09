@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Playfair";
+  src: url("PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Playfair";
+  background-color: #c6faff;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+main {
+  max-width: 400px;
+  width: 96%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #253031;
+  margin-bottom: 0.5em;
+}
+
+textarea {
+  padding: 0.75em;
+  margin-bottom: 1em;
+  border-radius: 2%;
+  color: #315559;
+  background-color: azure;
+  border: none;
+}
+
+textarea:focus {
+  outline: 1px solid #78b7bc;
+}
+
+button {
+  background-color: #2996a0;
+  color: azure;
+  padding: 0.75em 0.35em;
+
+  border: none;
+  border-radius: 2%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#entries {
+  background-color: #253031;
+  color: azure;
+  width: 100%;
+  padding: 0.4em 1em;
+}
+
+#entries h2 {
+  margin-top: 0;
+}
+
+.display-entry-button {
+  background-color: #253031;
+  color: azure;
+  border: 1px solid azure;
+  padding: 1.25em;
+  margin-right: 0.5em;
+}
+
+.entriesNav {
+  padding-bottom: 2em;
+}
+
+.singleEntry {
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: azure;
+  color: #253031;
+  max-width: 350px;
+  border-radius: 2%;
+  font-size: 0.8em;
+}
